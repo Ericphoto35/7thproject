@@ -1,0 +1,297 @@
+@media all and (min-width: 1024px) {
+    body {
+        width: 1440px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+    header {
+        background-image: url("images/bg-header-desktop.png");
+        width: 1439px;
+        height: 363px;
+        margin-top: 0%;
+    }
+    .header__img { 
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        padding-top: 128px;
+    }
+    
+
+    /*--------------------------*/
+    /* font-title-text-position */
+    /*--------------------------*/
+
+
+    h1 {
+        color: #4C545C;
+        text-align: center;
+        font-family: "Bai Jamjuree", sans-serif;
+        color: #4C545C;
+        font-size: 46px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.75px;
+        margin: 0 32px 16px 32px;
+    }
+    h2 {
+        color: #4C545C;
+        text-align: center;
+        font-family: "Bai Jamjuree", sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.587px;
+    }
+    .section2__h2 {
+        margin-top: 160px;
+    }
+    .section3__h2 {
+        margin-top: 150px;
+    }
+    .section4__h2 {
+        margin-top: 163px;
+    }
+    .section5__h2 {
+        margin-top: 161px;
+    }
+    h3 {
+        color: #4C545C;
+        text-align: center;
+        font-family: "Bai Jamjuree", sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.391px;
+    }
+    .section2__h3 {
+        margin: auto;
+        margin-top: 56px;
+    }
+    .section4__h3 {
+        margin: auto;
+        margin-top: 40px;
+    }
+    p {
+        color: #9EABB2;
+        text-align: center;
+        font-family: "Bai Jamjuree";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;   
+        line-height: 30px; /* 162.5% */
+        letter-spacing: 0.12px;
+    }
+    .section1__text {
+        margin-top: 0px;
+        width: 730px;
+        margin: auto;
+    }
+    .section2__text {
+        width: 730px;
+        margin: auto;
+        margin-top: 16px;
+    }
+    .section2__h3__text {
+        width: 350px;
+        margin: auto;
+        margin-top: 10px;
+        
+    }
+    .section3__text {
+        width: 730px;
+        margin: auto;
+        margin-top: 16px;
+    }
+    .section4__h2__text {
+        width: 730px;
+        height: 52px;
+        margin: auto;
+        margin-top: 11px;
+    }
+    .section4__h3__text {
+        width: 350px;
+        margin: auto;
+        margin-top: 18px;
+    }
+    .section5__text {
+        width: 730px;
+        margin: auto;
+        margin-top: 16px;
+    }
+
+
+
+    /*--------------------------*/
+    /* image-size-position */
+    /*--------------------------*/
+
+
+
+    .section2__img {
+        position: relative;
+        right: 70px;
+        width: 752px;
+        height: 572px;
+        margin-top: 65px;
+    }
+    .section3__img {
+        width: 805px;
+        height: 471.23px;
+        margin: auto;
+        display: block;
+        margin-top: 64.72px;
+    }
+    .footer__img {
+        width: 55px;
+        height: 55px;
+    }
+    .section4__h3__img {
+        margin: auto;
+        display: block;
+        margin-top: 56px;
+    }
+    .section4__img {
+        display: flex;
+        margin: auto; 
+        margin-top: 57px;  
+    }
+
+
+
+    /*--------------------------*/
+    /* button-style-position */
+    /*--------------------------*/
+
+
+
+    .section1__buttonIOS, .section5__button1 {
+        width: 227px;
+        height: 56px;
+        border-radius: 28px;
+        background: #26BBA4;
+        box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.50), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+        border: 0;
+        margin-top: 24px;
+        color: #FFF;
+        text-align: center;
+        font-family: "Bai Jamjuree", sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px; /* 166.667% */
+        letter-spacing: 0.5px;
+    }
+    .section1__buttonmac, .section5__button2 {
+        border-radius: 28px;
+        background: #6174FF;
+        box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+        width: 227px;
+        height: 56px;
+        color: #FFF;
+        text-align: center;
+        font-family: "Bai Jamjuree", sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px; /* 166.667% */
+        letter-spacing: 0.5px;
+        border: 0;
+        margin-top: 24px;
+    }
+    .button {
+        display: flex;
+        gap: 16px;
+        margin-left: 485px;
+        margin-right: 485px;
+    }
+
+    .section2__div {
+        display: flex;
+        margin: auto;
+        gap: 110px;
+        overflow: hidden;
+        margin-top: 80px;
+    }
+    .section4__div1 {
+        display: flex;
+        gap: 30px;
+        margin-left: 165px;
+        margin-right: 165px;
+    }
+    .section4__div2 {
+        display: flex;
+        margin-top: 192px;
+    }
+
+
+    /*------------------*/
+    /* FOOTER */
+    /*------------------*/
+
+    
+    .footer__img {
+    z-index: 1;
+    margin: auto;
+    margin-top: 52px;
+    margin-bottom: 51px;
+    
+    }
+    footer {
+    background: rgba(158, 171, 178, 0.10);
+    margin-top: 170px;
+    display: flex;  
+    }
+    .footer__ul {
+    display: flex;
+    color: #4C545C;
+    flex-direction: column;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: 0.135px;
+    list-style-type: none;
+    margin: auto;
+    }
+    li {
+        width: 160px;
+    }
+    .footer__ul__li1 {
+        display: flex; 
+        gap: 30px;
+        margin-bottom: 12px;
+         
+    }
+    .footer__ul__li2 {
+        display: flex;
+        gap: 30px;
+        
+    }
+    .footer__img__social {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: auto;
+    margin-top: 63px;
+    }
+    .attribution {
+    position: relative;
+    bottom: 24px;
+    display: inline;
+    }
+
+}
+    /*------------------*/
+    /* FOOTER */
+    /*------------------*/
+
